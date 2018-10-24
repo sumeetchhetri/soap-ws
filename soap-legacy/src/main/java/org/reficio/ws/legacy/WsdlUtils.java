@@ -44,7 +44,7 @@ import java.util.Map;
  * tightly coupled with other modules, such as soapUI's graphical user interface, etc.
  * The goal was to create an open-source java project whose main responsibility is to
  * handle SOAP message generation and SOAP transmission purely on an XML level.
- * <br/>
+ * 
  * centeractive ag would like to express strong appreciation to SmartBear Software and
  * to the whole team of soapUI's developers for creating soapUI and for releasing its
  * source code under a free and open-source licence. centeractive ag extracted and

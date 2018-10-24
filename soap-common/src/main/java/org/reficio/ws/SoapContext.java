@@ -55,12 +55,13 @@ public class SoapContext {
      * Constructor mainly for SpringFramework purposes, in any other case use the fluent builder interface;
      * #see builder() method
      *
-     * @param exampleContent
-     * @param typeComments
-     * @param valueComments
-     * @param buildOptional
-     * @param alwaysBuildHeaders
-     * @param excludedTypes
+     * @param exampleContent parameter
+     * @param typeComments parameter
+     * @param valueComments parameter
+     * @param buildOptional parameter
+     * @param alwaysBuildHeaders parameter
+     * @param excludedTypes parameter
+     * @param multiValuesProvider parameter
      */
     public SoapContext(boolean exampleContent, boolean typeComments, boolean valueComments,
                        boolean buildOptional, boolean alwaysBuildHeaders,
@@ -78,11 +79,11 @@ public class SoapContext {
      * Constructor mainly for SpringFramework purposes, in any other case use the fluent builder interface;
      * #see builder() method
      *
-     * @param exampleContent
-     * @param typeComments
-     * @param valueComments
-     * @param buildOptional
-     * @param alwaysBuildHeaders
+     * @param exampleContent parameter
+     * @param typeComments parameter
+     * @param valueComments parameter
+     * @param buildOptional parameter
+     * @param alwaysBuildHeaders parameter
      */
     public SoapContext(boolean exampleContent, boolean typeComments, boolean valueComments,
                        boolean buildOptional, boolean alwaysBuildHeaders) {
@@ -139,7 +140,7 @@ public class SoapContext {
         /**
          * Specifies if to generate example SOAP message content
          *
-         * @param value
+         * @param value parameter
          * @return builder
          */
         public ContextBuilder exampleContent(boolean value) {
@@ -150,7 +151,7 @@ public class SoapContext {
         /**
          * Specifies if to generate SOAP message type comments
          *
-         * @param value
+         * @param value parameter
          * @return builder
          */
         public ContextBuilder typeComments(boolean value) {
@@ -161,7 +162,7 @@ public class SoapContext {
         /**
          * Specifies if to skip SOAP message comments
          *
-         * @param value
+         * @param value parameter
          * @return builder
          */
         public ContextBuilder valueComments(boolean value) {
@@ -172,7 +173,7 @@ public class SoapContext {
         /**
          * Specifies if to generate content for elements marked as optional
          *
-         * @param value
+         * @param value parameter
          * @return builder
          */
         public ContextBuilder buildOptional(boolean value) {
@@ -183,7 +184,7 @@ public class SoapContext {
         /**
          * Specifies if to always build SOAP headers
          *
-         * @param value
+         * @param value parameter
          * @return builder
          */
         public ContextBuilder alwaysBuildHeaders(boolean value) {
@@ -197,7 +198,7 @@ public class SoapContext {
          * By default the XML-Schema root element is added since it is quite common in .NET
          * services and generates a sample xml fragment of about 300 kb!.
          *
-         * @param excludedTypes
+         * @param excludedTypes parameter
          * @return builder
          */
         public ContextBuilder excludedTypes(Set<QName> excludedTypes) {

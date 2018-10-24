@@ -43,9 +43,7 @@ import java.util.Set;
  * - SOAP Action mapping
  * - RCP bindings are matched using single top-level tag with the name of the invoked operation
  * - Document bindings are matched by input types and then by input names
- * <p/>
  * Thanks to Spring SOAPAction in both SOAP versions is treated transparently.
- * <p/>
  * Resources about SOAP-Action mystery in SOAP 1.1:
  * http://ws-rx.blogspot.com/2006/01/web-services-design-tips-soapaction.html
  * http://www.w3.org/TR/2000/NOTE-SOAP-20000508/#_Toc478383528
@@ -81,12 +79,10 @@ public class SoapOperationMatcher {
 
     /**
      * Matches the SoapMessage to an binding operation
-     * <p/>
      * Tries to match using the following mechanisms:
      * - SOAP Action mapping
      * - RCP bindings are matched using single top-level tag with the name of the invoked operation
      * - Document bindings are matched by input types and then by input names
-     * <p/>
      *
      * @param message message passed by the SOAP client
      * @return the BindingOperation matched to the message

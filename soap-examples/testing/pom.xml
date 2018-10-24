@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.reficio</groupId>
+    <groupId>com.github.sumeetchhetri</groupId>
     <artifactId>testing</artifactId>
     <packaging>jar</packaging>
     <name>soap-examples - testing</name>
 
     <parent>
-        <groupId>org.reficio</groupId>
+        <groupId>com.github.sumeetchhetri</groupId>
         <artifactId>soap-examples</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -18,12 +18,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.reficio</groupId>
+            <groupId>com.github.sumeetchhetri</groupId>
             <artifactId>soap-common</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.reficio</groupId>
+            <groupId>com.github.sumeetchhetri</groupId>
             <artifactId>soap-builder</artifactId>
             <version>${project.version}</version>
             <exclusions>
@@ -42,17 +42,17 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.reficio</groupId>
+            <groupId>com.github.sumeetchhetri</groupId>
             <artifactId>soap-client</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.reficio</groupId>
+            <groupId>com.github.sumeetchhetri</groupId>
             <artifactId>soap-server</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.reficio</groupId>
+            <groupId>com.github.sumeetchhetri</groupId>
             <artifactId>soap-test</artifactId>
             <version>${project.version}</version>
         </dependency>

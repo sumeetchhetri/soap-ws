@@ -28,14 +28,13 @@ import org.apache.xmlbeans.XmlOptions;
  * tightly coupled with other modules, such as soapUI's graphical user interface, etc.
  * The goal was to create an open-source java project whose main responsibility is to
  * handle SOAP message generation and SOAP transmission purely on an XML level.
- * <br/>
+ * 
  * centeractive ag would like to express strong appreciation to SmartBear Software and
  * to the whole team of soapUI's developers for creating soapUI and for releasing its
  * source code under a free and open-source licence. centeractive ag extracted and
  * modifies some parts of the soapUI's code in good faith, making every effort not
  * to impair any existing functionality and to supplement it according to our
  * requirements, applying best practices of software design.
- * <p/>
  * Changes done:
  * - changing location in the package structure
  * - removal of dependencies and code parts that are out of scope of SOAP message generation

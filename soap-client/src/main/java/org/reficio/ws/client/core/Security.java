@@ -32,7 +32,6 @@ import static org.reficio.ws.client.core.SoapConstants.*;
 
 /**
  * @author: Tom Bujok (tom.bujok@gmail.com)
- * <p/>
  * Reficio™ - Reestablish your software!
  * www.reficio.org
  */

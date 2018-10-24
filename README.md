@@ -72,17 +72,17 @@ In order to use soap-ws in your project you have to declare soap-ws in the depen
 ```xml
     <dependencies>
         <dependency>
-            <groupId>org.reficio</groupId>
+            <groupId>com.github.sumeetchhetri</groupId>
             <artifactId>soap-builder</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.reficio</groupId>
+            <groupId>com.github.sumeetchhetri</groupId>
             <artifactId>soap-client</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.reficio</groupId>
+            <groupId>com.github.sumeetchhetri</groupId>
             <artifactId>soap-server</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
@@ -92,8 +92,8 @@ soap-ws is not yet located in the central maven repo, thus you also have to add 
 ```xml
     <repositories>
         <repository>
-            <id>reficio</id>
-            <url>http://repo.reficio.org/maven/</url>
+            <id>jitpack</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 ```

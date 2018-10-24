@@ -41,7 +41,7 @@ import java.util.*;
 
 /**
  * This class was taken from Axis2 code. It's main responsibility is to marshall wsdl4j Definition instance back into the XML format.
- * By default it only marshalled the WSDL hierarchy. It was adjusted in such a way that it recursively marshalls XSD schemas as well.<p></p>
+ * By default it only marshalled the WSDL hierarchy. It was adjusted in such a way that it recursively marshalls XSD schemas as well.
  *
  * @author Tom Bujok
  * @since 1.0.0

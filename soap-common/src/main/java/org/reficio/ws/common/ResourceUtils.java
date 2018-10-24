@@ -27,7 +27,7 @@ import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
- * Loads resources from the classpath in a relatively seamless way.<br/>
+ * Loads resources from the classpath in a relatively seamless way.
  * Simplifies the Java API for resource loading.
  *
  * @author Tom Bujok

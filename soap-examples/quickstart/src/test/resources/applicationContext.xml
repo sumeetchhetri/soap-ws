@@ -20,7 +20,7 @@
     <!-- wsdl-parser part (remote wsdl) -->
     <bean id="wsdl" class="org.reficio.ws.builder.core.Wsdl" factory-method="parse">
         <constructor-arg>
-            <value>http://www.webservicex.net/CurrencyConvertor.asmx?WSDL</value>
+            <value>currency-convertor.wsdl</value>
         </constructor-arg>
     </bean>
 

@@ -31,20 +31,15 @@ import javax.xml.transform.Source;
 public interface RequestResponder {
 
     /**
-     * Returns a response to a SOAP message.<br/>
-     * <p/>
+     * Returns a response to a SOAP message.
      * How to get full SOAP message envelope (envelope = header + body):
      * msg.getEnvelope().getSource()
-     * <p/>
      * How to get header section:
      * msg.getEnvelope().getHeader().getSource()
-     * <p/>
      * How to get body section:
      * msg.getEnvelope().getBody().getSource()
-     * <p/>
      * How to convert XML String to XML Source:
      * XmlUtils.xmlStringToSource(string);
-     * <p/>
      * How to convert XML Source to XML String:
      * XmlUtils.sourceToXmlString(source);
      *

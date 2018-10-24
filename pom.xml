@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.reficio</groupId>
+    <groupId>com.github.sumeetchhetri</groupId>
     <artifactId>soap-ws</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
@@ -31,7 +31,6 @@
         <module>soap-client</module>
         <module>soap-server</module>
         <module>soap-it</module>
-        <module>soap-examples</module>
         <module>soap-test</module>
     </modules>
 
@@ -64,7 +63,7 @@
         <url>https://github.com/reficio/soap-ws/issues</url>
     </issueManagement>
 
-    <scm>
+    <!-- <scm>
         <connection>scm:git:git://github.com/reficio/soap-ws.git</connection>
         <developerConnection>scm:git:git@github.com:reficio/soap-ws.git</developerConnection>
         <url>http://github.com/reficio/soap-ws</url>
@@ -73,7 +72,7 @@
     <ciManagement>
         <system>jenkins</system>
         <url>https://reficio.ci.cloudbees.com/job/soap-ws/</url>
-    </ciManagement>
+    </ciManagement> -->
 
     <dependencyManagement>
         <dependencies>
@@ -387,12 +386,8 @@
 
     <repositories>
         <repository>
-            <id>reficio</id>
-            <url>http://repo.reficio.org/maven/</url>
-        </repository>
-        <repository>
             <id>eviware</id>
-            <url>http://www.eviware.com/repository/maven2/</url>
+            <url>https://downloads.smartbear.com/repository/maven2/</url>
         </repository>
         <repository>
             <id>jboss</id>
@@ -539,12 +534,12 @@
 
     </profiles>
 
-    <distributionManagement>
+    <!-- <distributionManagement>
         <repository>
             <id>reficio</id>
             <name>Reficio Maven Repository</name>
             <url>scp://${reficio.server}/var/www/repo/maven</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement> -->
 
 </project>
